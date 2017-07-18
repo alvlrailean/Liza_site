@@ -1,0 +1,2 @@
+class Diana < ApplicationRecord
+end

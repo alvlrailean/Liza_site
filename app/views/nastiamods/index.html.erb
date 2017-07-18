@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Настя</title>
+</head>
+<body>
+	
+	<div>
+	<h1>Настя</h1>
+		
+		<% @nastia.each do |l| %>
+			
+
+			<img style="height: 300px" src="<%= l.link_to_pic %>" alt="">	
+			<p>Возраст <%= l.age %> лет</p>
+
+		<% end %>
+
+	</div>
+
+
+</body>
+</html>

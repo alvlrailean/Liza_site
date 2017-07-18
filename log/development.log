@@ -1,0 +1,2273 @@
+Started GET "/countries/1/teas" for 127.0.0.1 at 2017-07-17 00:53:31 +0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.2) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-17 00:53:48 +0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.2) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (128.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (113.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTeas (20170716215230)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "teas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "color" varchar, "price" decimal, "link_to_pic" text, "country_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_d2eb5f6927"
+FOREIGN KEY ("country_id")
+  REFERENCES "countries" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_teas_on_country_id" ON "teas" ("country_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170716215230"]]
+  [1m[35m (112.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-16 21:54:19.330068"], ["updated_at", "2017-07-16 21:54:19.330068"]]
+  [1m[35m (80.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_teas_on_country_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_teas_on_country_id' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2017-07-17 00:54:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/yaponcik/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/yaponcik/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 14ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 00:54:45 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 602ms (Views: 590.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 00:54:50 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (17.0ms)
+  Rendered teas/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 67ms (Views: 52.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 00:54:57 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 00:55:18 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (8.5ms)
+  Rendered teas/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 00:55:24 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R6MGZs6rUya3LQLwd66JKRQQ+lJUbB2TmoZFd9anQKmZSOAc0rXriTCBOpS/9YyCWE1d+jrWy6ZecIs94H6U4Q==", "tea"=>{"name"=>"", "description"=>"", "color"=>"", "price"=>"", "link_to_pic"=>"", "country_id"=>""}, "commit"=>"Create Tea"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (3.5ms)
+  Rendered teas/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 46ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 00:55:37 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 00:55:44 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Tea with 'id'=1):
+  
+app/controllers/teas_controller.rb:67:in `set_tea'
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 00:55:54 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (6.5ms)
+  Rendered teas/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 00:57:41 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z5PH2vYTNIAkppZYLnAlIBfDYXOFdC84aAAwFao/W2i5eCGg6g2ML6MKrjzmKyCLW57G2+vO+Q2s9v5fnOaPIA==", "tea"=>{"name"=>"puer", "description"=>"zasibisi", "color"=>"green", "price"=>"150", "link_to_pic"=>"https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F400x400%2Fpublic%2Fmigration%2Fimages%2Fslides%2Fcup-tea-400x400.jpg%3Fitok%3Dj4IfzEm-&imgrefurl=http%3A%2F%2Fwww.health.com%2Fhealth%2Fgallery%2F0%2C%2C20307179%2C00.html&docid=iV_fR-WvWWTr0M&tbnid=h1ee931QF6lyWM%3A&vet=10ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw..i&w=400&h=400&client=ubuntu&bih=673&biw=1366&q=tea&ved=0ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw&iact=mrc&uact=8", "country_id"=>"China"}, "commit"=>"Create Tea"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+NameError (uninitialized constant Tea::Country):
+  
+app/controllers/teas_controller.rb:30:in `block in create'
+app/controllers/teas_controller.rb:29:in `create'
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 00:58:08 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z5PH2vYTNIAkppZYLnAlIBfDYXOFdC84aAAwFao/W2i5eCGg6g2ML6MKrjzmKyCLW57G2+vO+Q2s9v5fnOaPIA==", "tea"=>{"name"=>"puer", "description"=>"zasibisi", "color"=>"green", "price"=>"150", "link_to_pic"=>"https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F400x400%2Fpublic%2Fmigration%2Fimages%2Fslides%2Fcup-tea-400x400.jpg%3Fitok%3Dj4IfzEm-&imgrefurl=http%3A%2F%2Fwww.health.com%2Fhealth%2Fgallery%2F0%2C%2C20307179%2C00.html&docid=iV_fR-WvWWTr0M&tbnid=h1ee931QF6lyWM%3A&vet=10ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw..i&w=400&h=400&client=ubuntu&bih=673&biw=1366&q=tea&ved=0ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw&iact=mrc&uact=8", "country_id"=>"China"}, "commit"=>"Create Tea"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+NameError (uninitialized constant Tea::Country):
+  
+app/controllers/teas_controller.rb:30:in `block in create'
+app/controllers/teas_controller.rb:29:in `create'
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 01:00:43 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.2) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTeas (20170716220009)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "teas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "color" varchar, "price" decimal, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (142.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (128.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTeas (20170716220009)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "teas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "color" varchar, "price" decimal, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170716220009"]]
+  [1m[35m (131.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-16 22:01:21.528663"], ["updated_at", "2017-07-16 22:01:21.528663"]]
+  [1m[35m (101.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 01:01:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z5PH2vYTNIAkppZYLnAlIBfDYXOFdC84aAAwFao/W2i5eCGg6g2ML6MKrjzmKyCLW57G2+vO+Q2s9v5fnOaPIA==", "tea"=>{"name"=>"puer", "description"=>"zasibisi", "color"=>"green", "price"=>"150", "link_to_pic"=>"https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F400x400%2Fpublic%2Fmigration%2Fimages%2Fslides%2Fcup-tea-400x400.jpg%3Fitok%3Dj4IfzEm-&imgrefurl=http%3A%2F%2Fwww.health.com%2Fhealth%2Fgallery%2F0%2C%2C20307179%2C00.html&docid=iV_fR-WvWWTr0M&tbnid=h1ee931QF6lyWM%3A&vet=10ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw..i&w=400&h=400&client=ubuntu&bih=673&biw=1366&q=tea&ved=0ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw&iact=mrc&uact=8", "country_id"=>"China"}, "commit"=>"Create Tea"}
+Unpermitted parameter: :country_id
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "teas" ("name", "description", "color", "price", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "puer"], ["description", "zasibisi"], ["color", "green"], ["price", 150.0], ["link_to_pic", "https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F400x400%2Fpublic%2Fmigration%2Fimages%2Fslides%2Fcup-tea-400x400.jpg%3Fitok%3Dj4IfzEm-&imgrefurl=http%3A%2F%2Fwww.health.com%2Fhealth%2Fgallery%2F0%2C%2C20307179%2C00.html&docid=iV_fR-WvWWTr0M&tbnid=h1ee931QF6lyWM%3A&vet=10ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw..i&w=400&h=400&client=ubuntu&bih=673&biw=1366&q=tea&ved=0ahUKEwjqqsLf5Y7VAhVEJJoKHSqFCxEQMwjwASgMMAw&iact=mrc&uact=8"], ["created_at", "2017-07-16 22:01:38.710271"], ["updated_at", "2017-07-16 22:01:38.710271"]]
+  [1m[35m (109.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/teas/1
+Completed 302 Found in 148ms (ActiveRecord: 111.2ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:01:38 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 264ms (Views: 259.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:01:53 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:02:02 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/1/edit" for 127.0.0.1 at 2017-07-17 01:02:07 +0300
+Processing by TeasController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/edit.html.erb within layouts/application
+  Rendered teas/_form.html.erb (26.0ms)
+  Rendered teas/edit.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:04:41 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:05:31 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:06:47 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:06:54 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:07:44 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:07:49 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:07:49 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teas/1/edit" for 127.0.0.1 at 2017-07-17 01:07:57 +0300
+Processing by TeasController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/edit.html.erb within layouts/application
+  Rendered teas/_form.html.erb (5.2ms)
+  Rendered teas/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/teas/1" for 127.0.0.1 at 2017-07-17 01:11:06 +0300
+Processing by TeasController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+uzTuSKrLCGu8GphRRM36v0YypdXLk2djLIuRJuscukxIIhNjzLHBb6sldOCEjCAzL/vQOkOEQj0KQwBmr5bCA==", "tea"=>{"name"=>"puer", "description"=>"zasibisi", "color"=>"green", "price"=>"150.0", "link_to_pic"=>"http://www.chay.info/upload/iblock/729/729c421be68d95bdcf10df481b8543e6.jpg"}, "commit"=>"Update Tea", "id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "teas" SET "link_to_pic" = ?, "updated_at" = ? WHERE "teas"."id" = ?[0m  [["link_to_pic", "http://www.chay.info/upload/iblock/729/729c421be68d95bdcf10df481b8543e6.jpg"], ["updated_at", "2017-07-16 22:11:06.944590"], ["id", 1]]
+  [1m[35m (128.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/teas/1
+Completed 302 Found in 135ms (ActiveRecord: 130.3ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:11:07 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.1ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:11:13 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.1ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:11:18 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:12:04 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:12:06 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:12:07 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:12:08 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:12:12 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/1" for 127.0.0.1 at 2017-07-17 01:12:24 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTea Load (0.1ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:12:28 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:12:55 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 01:13:12 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (5.5ms)
+  Rendered teas/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 01:14:35 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FW1CvOsFESI59S8o71M6gFFeIo49Zs9XivNAzLkj3p3LhqTG9xupjb5ZF0wnCD8rHQOFJlPcGWJOBY6Gj/oK1Q==", "tea"=>{"name"=>"Да Хун Пао", "description"=>"(кит. 大红袍; dàhóng páo; букв. «Большой красный халат») – прославленный утесный улун, который производят в горах Уи на северо-западе провинции Фуцзянь. Здесь же до сих пор растут и три «материнских» куста, с которых более семи веков назад началась история этого сорта. К сожалению, попробовать чай из листьев оригинальных деревьев нельзя – сбор урожая давно запрещен. Зато можно легко наткнуться на поддельный Да Хун Пао.", "color"=>"black", "price"=>"180", "link_to_pic"=>"http://www.chay.info/upload/iblock/65a/65af5a01c03bdcf5b129af68ed8ee69a.jpg"}, "commit"=>"Create Tea"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "teas" ("name", "description", "color", "price", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Да Хун Пао"], ["description", "(кит. 大红袍; dàhóng páo; букв. «Большой красный халат») – прославленный утесный улун, который производят в горах Уи на северо-западе провинции Фуцзянь. Здесь же до сих пор растут и три «материнских» куста, с которых более семи веков назад началась история этого сорта. К сожалению, попробовать чай из листьев оригинальных деревьев нельзя – сбор урожая давно запрещен. Зато можно легко наткнуться на поддельный Да Хун Пао."], ["color", "black"], ["price", 180.0], ["link_to_pic", "http://www.chay.info/upload/iblock/65a/65af5a01c03bdcf5b129af68ed8ee69a.jpg"], ["created_at", "2017-07-16 22:14:35.063480"], ["updated_at", "2017-07-16 22:14:35.063480"]]
+  [1m[35m (229.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/teas/2
+Completed 302 Found in 235ms (ActiveRecord: 229.7ms)
+
+
+Started GET "/teas/2" for 127.0.0.1 at 2017-07-17 01:14:35 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTea Load (0.1ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/teas/2" for 127.0.0.1 at 2017-07-17 01:14:39 +0300
+Processing by TeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT  "teas".* FROM "teas" WHERE "teas"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering teas/show.html.erb within layouts/application
+  Rendered teas/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 01:14:42 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-17 22:05:23 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/yaponcik/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/yaponcik/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 38ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-17 22:05:37 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 480ms (Views: 443.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 22:05:46 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (157.9ms)
+  Rendered teas/new.html.erb within layouts/application (183.4ms)
+Completed 200 OK in 245ms (Views: 206.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 22:05:52 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bYcjYn07Y1AzVSR0WjkagKfMgKOqocbHPkCJUaeUvf1Swv9tYgzD6pCA8AgnbrgyYZpG+10BhIKHDVau0lsrqQ==", "tea"=>{"name"=>"puer", "description"=>"", "color"=>"", "price"=>"150", "link_to_pic"=>""}, "commit"=>"Create Tea"}
+No template found for TeasController#create, rendering head :no_content
+Completed 204 No Content in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 22:06:11 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (3.2ms)
+  Rendered teas/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 22:06:37 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZUFnlPSwsd8OzHo1szNLybKczXnjMMzhI3gzDrMEHLf6BvOg/xKJDEk7UpH9x/n6LYxc/JTZ8fxUtLpsFbwiQA==", "tea"=>{"name"=>"llll", "description"=>"uuu", "color"=>"xxx", "price"=>"333", "link_to_pic"=>"mmm"}, "commit"=>"Create Tea"}
+No template found for TeasController#create, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-17 22:07:58 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (3.8ms)
+  Rendered teas/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 52ms (Views: 34.3ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/teas" for 127.0.0.1 at 2017-07-17 22:08:01 +0300
+Processing by TeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nbwNK56ogymFf6GM3SZU8yOjmYQ22ZjYlyTR6ud4Fv8C+5kflQq7+sKIiSiT0ubAvLMIAUEwpcXg6FiIQcAoCA==", "tea"=>{"name"=>"llll", "description"=>"uuu", "color"=>"xxx", "price"=>"333", "link_to_pic"=>"mmm"}, "commit"=>"Create Tea"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "teas" ("name", "description", "color", "price", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "llll"], ["description", "uuu"], ["color", "xxx"], ["price", 333.0], ["link_to_pic", "mmm"], ["created_at", "2017-07-17 19:08:01.189312"], ["updated_at", "2017-07-17 19:08:01.189312"]]
+  [1m[35m (249.7ms)[0m  [1m[36mcommit transaction[0m
+No template found for TeasController#create, rendering head :no_content
+Completed 204 No Content in 276ms (ActiveRecord: 251.1ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateLizas (20170718070207)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "lizas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070207"]]
+  [1m[35m (147.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateNastia (20170718070227)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "nastia" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070227"]]
+  [1m[35m (130.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateAlionas (20170718070242)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "alionas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070242"]]
+  [1m[35m (130.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://drive.google.com/file/d/0B2vwvIgK4LZ0WllGR0g5emktbWM/view?usp=sharing"], ["created_at", "2017-07-18 07:13:00.554632"], ["updated_at", "2017-07-18 07:13:00.554632"]]
+  [1m[35m (105.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:18:56 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/yaponcik/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/yaponcik/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 17ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:19:10 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 309ms (Views: 297.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:19:17 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.5ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:20:31 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:21:49 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:22:22 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://pp.userapi.com/c308529/v308529426/c22/YQMlwyyN3sY.jpg"], ["created_at", "2017-07-18 07:22:47.886165"], ["updated_at", "2017-07-18 07:22:47.886165"]]
+  [1m[35m (75.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:22:53 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:23:32 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:23:47 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:24:41 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:25:07 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:26:52 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 59ms (Views: 49.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:29:59 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 136ms (Views: 134.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:30:01 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 44.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:30:16 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:32:17 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 51.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:33:52 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 30.8ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:33:55 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 66ms (Views: 59.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:34:18 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 07:36:19.994380"], ["updated_at", "2017-07-18 07:36:19.994380"]]
+  [1m[35m (91.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:36:24 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:36:27 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 10:36:35 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAnastasia (20170718073831)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "anastasia" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718073831"]]
+  [1m[35m (100.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 07:43:46.307274"], ["updated_at", "2017-07-18 07:43:46.307274"]]
+  [1m[35m (92.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 07:44:43.281665"], ["updated_at", "2017-07-18 07:44:43.281665"]]
+  [1m[35m (91.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (85.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (117.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTeas (20170716220009)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "teas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "color" varchar, "price" decimal, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170716220009"]]
+  [1m[35m (116.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateLizas (20170718070207)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "lizas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070207"]]
+  [1m[35m (128.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateNastia (20170718070227)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "nastia" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070227"]]
+  [1m[35m (141.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateAlionas (20170718070242)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "alionas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070242"]]
+  [1m[35m (140.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateAnastasia (20170718073831)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "anastasia" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718073831"]]
+  [1m[35m (151.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-18 07:46:30.476329"], ["updated_at", "2017-07-18 07:46:30.476329"]]
+  [1m[35m (106.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 07:46:42.159031"], ["updated_at", "2017-07-18 07:46:42.159031"]]
+  [1m[35m (88.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "anastasia" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://mh-club.ru/content/images/w/Venus_McFlytrap-art.jpg"], ["created_at", "2017-07-18 07:46:42.264497"], ["updated_at", "2017-07-18 07:46:42.264497"]]
+  [1m[35m (70.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:50:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"anastasium"}, missing required keys: [:id]):
+    3: <div class="nav">
+    4: 	
+    5: <%= link_to 'ЛИЗА', lizas_path %>
+    6: <%= link_to 'НАСТЯ', anastasium_path %>
+    7: 
+    8: 
+    9: </div>
+  
+app/views/wellcome/index.html.erb:6:in `_app_views_wellcome_index_html_erb__3325158342320023220_70263088997520'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (148.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (148.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTeas (20170716220009)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "teas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "color" varchar, "price" decimal, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170716220009"]]
+  [1m[35m (134.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateLizas (20170718070207)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "lizas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070207"]]
+  [1m[35m (151.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateAlionas (20170718070242)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "alionas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718070242"]]
+  [1m[35m (148.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-18 07:58:09.235612"], ["updated_at", "2017-07-18 07:58:09.235612"]]
+  [1m[35m (104.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 07:58:13.905622"], ["updated_at", "2017-07-18 07:58:13.905622"]]
+  [1m[35m (80.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "alionas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://mh-club.ru/content/images/w/Venus_McFlytrap-art.jpg"], ["created_at", "2017-07-18 07:58:14.002005"], ["updated_at", "2017-07-18 07:58:14.002005"]]
+  [1m[35m (96.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:00:17 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:00:19 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alionas" for 127.0.0.1 at 2017-07-18 11:00:22 +0300
+  
+ActionController::RoutingError (uninitialized constant AlionasController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/alionas" for 127.0.0.1 at 2017-07-18 11:01:36 +0300
+  
+ActionController::RoutingError (uninitialized constant AlionasController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/alionas" for 127.0.0.1 at 2017-07-18 11:01:38 +0300
+  
+ActionController::RoutingError (uninitialized constant AlionasController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:01:42 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"alionas"}, missing required keys: [:id]):
+    3: <div class="nav">
+    4: 	
+    5: <%= link_to 'ЛИЗА', lizas_path %>
+    6: <%= link_to 'АЛЁНА', aliona_path %>
+    7: 
+    8: 
+    9: </div>
+  
+app/views/wellcome/index.html.erb:6:in `_app_views_wellcome_index_html_erb__3325158342320023220_70263096964640'
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:01:48 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"alionas"}, missing required keys: [:id]):
+    3: <div class="nav">
+    4: 	
+    5: <%= link_to 'ЛИЗА', lizas_path %>
+    6: <%= link_to 'АЛЁНА', aliona_path %>
+    7: 
+    8: 
+    9: </div>
+  
+app/views/wellcome/index.html.erb:6:in `_app_views_wellcome_index_html_erb__3325158342320023220_70263014802380'
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:02:46 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"alionas"}, missing required keys: [:id]):
+    3: <div class="nav">
+    4: 	
+    5: <%= link_to 'ЛИЗА', lizas_path %>
+    6: <%= link_to 'АЛЁНА', aliona_path %>
+    7: 
+    8: 
+    9: </div>
+  
+app/views/wellcome/index.html.erb:6:in `_app_views_wellcome_index_html_erb__3325158342320023220_70263185738020'
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:02:48 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"alionas"}, missing required keys: [:id]):
+    3: <div class="nav">
+    4: 	
+    5: <%= link_to 'ЛИЗА', lizas_path %>
+    6: <%= link_to 'АЛЁНА', aliona_path %>
+    7: 
+    8: 
+    9: </div>
+  
+app/views/wellcome/index.html.erb:6:in `_app_views_wellcome_index_html_erb__3325158342320023220_70263093518620'
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:03:00 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alionas" for 127.0.0.1 at 2017-07-18 11:03:04 +0300
+  
+ActionController::RoutingError (uninitialized constant AlionasController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:04:19 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:04:21 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:04:23 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 64ms (Views: 57.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/alionas" for 127.0.0.1 at 2017-07-18 11:04:27 +0300
+  
+ActionController::RoutingError (uninitialized constant AlionasController):
+  
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.2) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.2) lib/action_dispatch/http/request.rb:82:in `controller_class'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateNastiamods (20170718080804)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "nastiamods" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718080804"]]
+  [1m[35m (130.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 08:12:53.990447"], ["updated_at", "2017-07-18 08:12:53.990447"]]
+  [1m[35m (124.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "nastiamods" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://mh-club.ru/content/images/w/Venus_McFlytrap-art.jpg"], ["created_at", "2017-07-18 08:12:54.127029"], ["updated_at", "2017-07-18 08:12:54.127029"]]
+  [1m[35m (85.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:12:57 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:13:00 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 11:13:02 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 71ms (Views: 65.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:13:05 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 63ms (Views: 57.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:13:30 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:13:31 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:13:33 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 70ms (Views: 67.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 11:13:35 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:21:04 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.2) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAlionamods (20170718081504)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "alionamods" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718081504"]]
+  [1m[35m (130.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 08:21:21.478196"], ["updated_at", "2017-07-18 08:21:21.478196"]]
+  [1m[35m (84.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "nastiamods" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://mh-club.ru/content/images/w/Venus_McFlytrap-art.jpg"], ["created_at", "2017-07-18 08:21:21.571835"], ["updated_at", "2017-07-18 08:21:21.571835"]]
+  [1m[35m (76.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "alionamods" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://www.youloveit.ru/uploads/gallery/main/637/youloveit_ru_ebbi_moster_high3.jpg"], ["created_at", "2017-07-18 08:21:21.661187"], ["updated_at", "2017-07-18 08:21:21.661187"]]
+  [1m[35m (109.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:21:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:21:29 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 11:21:30 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.3ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 78ms (Views: 69.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:21:33 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 86ms (Views: 80.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 11:21:36 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 58ms (Views: 54.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:23:06 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:23:08 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:23:35 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:26:38 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 11:26:42 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 11:26:45 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.3ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 66ms (Views: 64.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 11:26:56 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 67ms (Views: 65.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 11:27:01 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 11:27:04 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.3ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:45:49 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 76ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:47:10 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 71ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:47:21 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:58:02 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 11:58:54 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-18 11:59:17 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 64ms (Views: 59.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:00:02 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:00:48 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 85ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:01:04 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 82ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:01:11 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:01:30 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:02:32 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:03:08 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.3ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:03:11 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 72ms (Views: 69.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:03:15 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:03:18 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.3ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 89ms (Views: 87.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:03:20 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:03:25 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:03:53 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:03:56 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 111ms (Views: 109.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:03:59 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:04:40 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 88ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:04:48 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:04:51 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:04:59 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:05:07 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:05:09 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:05:10 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:05:13 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 78ms (Views: 74.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:05:26 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:06:32 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:06:44 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:07:10 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.3ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 79ms (Views: 76.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:07:14 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:07:16 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:07:34 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:08:47 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:08:57 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:09:02 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.3ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDianas (20170718091102)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "dianas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "age" text, "link_to_pic" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718091102"]]
+  [1m[35m (111.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:15:48 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 12:15:51 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.2ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 86ms (Views: 76.3ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "lizas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "https://deti-online.com/img/klodin-vulf-color.jpg"], ["created_at", "2017-07-18 09:16:08.056314"], ["updated_at", "2017-07-18 09:16:08.056314"]]
+  [1m[35m (96.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "nastiamods" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://mh-club.ru/content/images/w/Venus_McFlytrap-art.jpg"], ["created_at", "2017-07-18 09:16:08.166018"], ["updated_at", "2017-07-18 09:16:08.166018"]]
+  [1m[35m (68.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "alionamods" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "5"], ["link_to_pic", "http://www.youloveit.ru/uploads/gallery/main/637/youloveit_ru_ebbi_moster_high3.jpg"], ["created_at", "2017-07-18 09:16:08.246982"], ["updated_at", "2017-07-18 09:16:08.246982"]]
+  [1m[35m (118.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "dianas" ("age", "link_to_pic", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["age", "6"], ["link_to_pic", "https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=113869068"], ["created_at", "2017-07-18 09:16:08.376848"], ["updated_at", "2017-07-18 09:16:08.376848"]]
+  [1m[35m (123.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:16:11 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 12:16:12 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.2ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:16:16 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.9ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 66ms (Views: 59.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:17:09 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:17:10 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:17:11 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 73ms (Views: 69.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:17:13 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 77ms (Views: 72.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:17:14 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 12:17:15 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.3ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 79ms (Views: 76.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:17:20 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 78ms (Views: 75.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:17:23 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.2ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:17:26 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 12:17:28 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.3ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:17:42 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:17:45 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 84ms (Views: 82.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 12:18:27 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.2ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 63.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:18:31 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:18:35 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:19:19 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 12:19:35 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 12:20:29 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.3ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 84ms (Views: 81.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 12:21:10 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.3ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 12:22:04 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.2ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-18 12:25:31 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.2ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 67ms (Views: 60.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teas/new" for 127.0.0.1 at 2017-07-18 12:25:38 +0300
+Processing by TeasController#new as HTML
+  Rendering teas/new.html.erb within layouts/application
+  Rendered teas/_form.html.erb (10.0ms)
+  Rendered teas/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 81ms (Views: 70.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-18 12:25:41 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teas" for 127.0.0.1 at 2017-07-18 12:25:49 +0300
+Processing by TeasController#index as HTML
+  Rendering teas/index.html.erb within layouts/application
+  [1m[36mTea Load (0.3ms)[0m  [1m[34mSELECT "teas".* FROM "teas"[0m
+  Rendered teas/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 12:25:52 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:14:38 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 275ms (Views: 264.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 13:14:45 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 124ms (Views: 112.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 13:14:52 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.4ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 93ms (Views: 83.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 13:14:56 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.3ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 94ms (Views: 85.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 13:14:59 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.3ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 89ms (Views: 79.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 13:15:43 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:15:58 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:25:50 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 92ms (Views: 91.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:25:51 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 50.8ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 13:26:15 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 73ms (Views: 64.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 13:26:16 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.3ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 76ms (Views: 69.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:29:31 +0300
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 51.9ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 13:29:34 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.4ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 77ms (Views: 70.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 13:29:39 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 67ms (Views: 60.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:30:46 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 422ms (Views: 411.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 13:30:49 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.2ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 122ms (Views: 112.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/alionamods" for 127.0.0.1 at 2017-07-18 13:30:51 +0300
+Processing by AlionamodsController#index as HTML
+  Rendering alionamods/index.html.erb within layouts/application
+  [1m[36mAlionamod Load (0.2ms)[0m  [1m[34mSELECT "alionamods".* FROM "alionamods"[0m
+  Rendered alionamods/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 78ms (Views: 70.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/nastiamods" for 127.0.0.1 at 2017-07-18 13:30:53 +0300
+Processing by NastiamodsController#index as HTML
+  Rendering nastiamods/index.html.erb within layouts/application
+  [1m[36mNastiamod Load (0.4ms)[0m  [1m[34mSELECT "nastiamods".* FROM "nastiamods"[0m
+  Rendered nastiamods/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 70ms (Views: 64.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/lizas" for 127.0.0.1 at 2017-07-18 13:30:56 +0300
+Processing by LizasController#index as HTML
+  Rendering lizas/index.html.erb within layouts/application
+  [1m[36mLiza Load (0.2ms)[0m  [1m[34mSELECT "lizas".* FROM "lizas"[0m
+  Rendered lizas/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 62ms (Views: 55.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/dianas" for 127.0.0.1 at 2017-07-18 13:30:57 +0300
+Processing by DianasController#index as HTML
+  Rendering dianas/index.html.erb within layouts/application
+  [1m[36mDiana Load (0.3ms)[0m  [1m[34mSELECT "dianas".* FROM "dianas"[0m
+  Rendered dianas/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.3ms)
+
+

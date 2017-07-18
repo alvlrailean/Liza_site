@@ -1,0 +1,2 @@
+class Liza < ApplicationRecord
+end
